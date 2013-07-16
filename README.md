@@ -3,7 +3,7 @@ django-rest-seed
 
 Start your Django REST app in seconds.
 
-REQUIREMENTS: pip, linux command line
+REQUIREMENTS: git, python, pip, linux command line
 
 If you are looking to save a little time on starting your app, here is a working start with one example model, fully functioning User model, and token authentication.
 

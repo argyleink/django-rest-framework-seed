@@ -9,9 +9,8 @@ If you are looking to save a little time on starting your app, here is a working
 
 Setup:
 
-1. clone down the repository, and enter directory
-2. Run: pip install --install-option="--install-scripts=$PWD/bin" --install-option="--install-lib=$PWD/lib/pythonX.Y" -r requirements.txt <br>
-        - This will install django, django-rest-framework, and south for migrations
+1. Clone down the repository, and enter directory
+2. Run: pip install south django djangorestframework
 3. Run: python manage.py syncdb <br>
         - Do not create superuser, wait until rest_framework is migrated
 4. Run: python manage.py schemamigration --initial app
@@ -25,3 +24,8 @@ Setup:
 There you have it! You have a simple, working API!
 
 Feel free to comment on anything you see.
+
+
+NOTES:
+        - I highly suggest using a virtualenv as to not mess with in-built dependencies
+        - You may have to include python version: python2.7 manage.py syncdb

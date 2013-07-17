@@ -1,7 +1,7 @@
-django-rest-seed
+django-rest-framework-seed
 ================
 
-Start your Django REST app in seconds.
+Start your Django API in seconds with this Django Rest Framework seed.
 
 REQUIREMENTS: git, python, pip, linux command line
 
